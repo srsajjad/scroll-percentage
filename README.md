@@ -23,7 +23,7 @@ document.querySelector('.scorllable-elem').addEventListener('scroll',e => {
 })
 ```
 
-if the scrollabe element is window, then a second parameter is necessary.
+if the scrollable element is window, then a second parameter is necessary.
 the second parameter - height of the element, window is scrolling by -
 ```javascript
 calculateScrollPercentage(e.target, document.querySelector(someElement).clientHeight)
