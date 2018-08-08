@@ -1,6 +1,6 @@
 {
   "name": "scroll-percentage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "get the percentage value of how much the scrollable element has scrolled",
   "main": "dist/index.js",
   "author": "srsajjad",
