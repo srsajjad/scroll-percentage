@@ -18,7 +18,7 @@ calculateScrollPercentage(e.target)
 
 full example -
 ```javascript
-document.querySeleceor('.scorllable-elem').addEventListener('scroll',e => {
+document.querySelector('.scorllable-elem').addEventListener('scroll',e => {
   calculateScrollPercentage(e.target)
 })
 ```
