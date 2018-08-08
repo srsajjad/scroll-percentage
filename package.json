@@ -13,5 +13,5 @@
   "scripts": {
     "build": "rm -rf ./dist && mkdir dist && babel index.js -o dist/index.js"
   },
-  "homepage": "https://github.com/srsajjad/scroll-percentage#readme"
+  "homepage": "https://github.com/srsajjad/scroll-percentage"
 }
