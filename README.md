@@ -3,7 +3,7 @@ yarn add scroll-percentage
 ```
 
 ```javascript
-import { calculateScrollPercentage } from 'scroll-precentage'
+import { calculateScrollPercentage } from 'scroll-percentage'
 ```
 
 Provide the scrollable element as parameter -
@@ -14,7 +14,8 @@ calculateScrollPercentage(scrollabaleElement)
 Like -
 ```javascript
 document.querySelector('.scorllable-elem').addEventListener('scroll',e => {
-  calculateScrollPercentage(e.target)
+  let scrollPercentage = calculateScrollPercentage(e.target)
+  console.log('scroll percentage', scrollPercentage)
 })
 ```
 
