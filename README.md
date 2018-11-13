@@ -13,8 +13,10 @@ document.querySelector('.parent-elem').addEventListener('scroll',e => {
 })
 ```
 
-If the parent/scrolling element is window, then provide a second parameter.\
-Which is basically - height of the child element, `window` is scrolling by -
+```
+// If the parent/scrolling element is `window`, then provide a second parameter.
+// Which is basically - height of the child element, `window` is scrolling by -
+```
 
 ```javascript
 let childElemHeight = document.querySelector('.child-elem').clientHeight
