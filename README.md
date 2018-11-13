@@ -6,16 +6,18 @@ yarn add scroll-percentage
 import { calculateScrollPercentage } from 'scroll-percentage'
 ```
 
-Like -
 ```javascript
-document.querySelector('.scorllable-elem').addEventListener('scroll',e => {
+document.querySelector('.parent-elem').addEventListener('scroll',e => {
   let scrollPercentage = calculateScrollPercentage(e.target)
   console.log('scroll percentage', scrollPercentage)
 })
 ```
 
-If the scrollable element is window, then provide a second parameter.\
-Which is basically - height of the element, `window` is scrolling by -
+If the parent/scrolling element is window, then provide a second parameter.\
+Which is basically - height of the child element, `window` is scrolling by -
+
 ```javascript
-calculateScrollPercentage(e.target, document.querySelector(someElement).clientHeight)
+let childElemHeight = document.querySelector('.child-elem').clientHeight
+let scrollPercentage = calculateScrollPercentage(e.target, childElemHeight)
+console.log('scroll percentage', scrollPercentage)
 ```
