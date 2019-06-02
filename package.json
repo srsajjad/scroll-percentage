@@ -2,7 +2,7 @@
   "name": "scroll-percentage",
   "version": "1.0.7",
   "description": "get scrolled percentage of a scrollable element",
-  "main": "dist/index.js",
+  "main": "index.js",
   "author": "srsajjad",
   "license": "MIT",
   "bugs": {
