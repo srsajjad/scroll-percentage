@@ -1,3 +1,8 @@
+Object.defineProperty(exports, '__esModule', {
+  value: true
+})
+exports.calculateScrollPercentage = calculateScrollPercentage
+
 function calculateScrollPercentage (target, childElemHeight) {
   try {
     if (!target) throw 'scrolling element height not found'
@@ -22,5 +27,3 @@ function calculateScrollPercentage (target, childElemHeight) {
     console.error(err)
   }
 }
-
-export { calculateScrollPercentage }
