@@ -9,7 +9,7 @@ import { calculateScrollPercentage } from 'scroll-percentage'
 Or attach this `script` in your `html`.
 
 ```html
-<script src="https://unpkg.com/scroll-percentage@1.0.7/dist/index.js"></script>
+<script src="https://unpkg.com/scroll-percentage@1.0.9/dist/index.js"></script>
 ```
 
 
