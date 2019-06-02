@@ -1,18 +1,10 @@
 {
   "name": "scroll-percentage",
   "version": "1.0.5",
-  "description": "get the percentage value of how much the scrollable element has scrolled",
+  "description": "get scrolled percentage of a scrollable element",
   "main": "dist/index.js",
   "author": "srsajjad",
   "license": "MIT",
-  "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.56",
-    "@babel/core": "^7.0.0-beta.56",
-    "@babel/preset-env": "^7.0.0-beta.56"
-  },
-  "scripts": {
-    "build": "rm -rf ./dist && mkdir dist && babel index.js -o dist/index.js"
-  },
   "bugs": {
     "url": "https://github.com/srsajjad/scroll-percentage/issues"
   },
